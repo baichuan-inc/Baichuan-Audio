@@ -109,9 +109,11 @@ python s2s_gradio_demo_cosy_multiturn.py
 ### Cases
 
 
-* 介绍下北京
+以下是一个音频输入和音频输出的示例:
 
-https://github.com/user-attachments/assets/54dd31bf-32b7-4259-adc1-9f6160b3c15f
+| **输入类型** | **输入内容**   | **输出类型** | **输出内容**                                                                                   |
+|----------------|---------------------|-----------------|------------------------------------------------------------------------------------------------------|
+| 音频          | "介绍下北京" | 音频           | [音频输出](https://raw.githubusercontent.com/baichuan-inc/Baichuan-Audio/refs/heads/main/assets/audio_out.wav) |
 
 
 ### Open-Source Evaluation Set
@@ -139,3 +141,15 @@ https://github.com/user-attachments/assets/54dd31bf-32b7-4259-adc1-9f6160b3c15f
 Baichuan-Audio-Base/Baichuan-Audio 模型的权重的使用则需要遵循 [Apache 2.0](https://github.com/baichuan-inc/Baichuan-Audio/blob/main/LICENSE)
 
 
+### Citation
+
+如果您觉得我们模型/代码/论文有帮助，请给我们 ⭐ 和 引用 📝，感谢！
+
+```bib
+@article{li2025baichuan,
+  title={Baichuan-Audio: A Unified Framework for End-to-End Speech Interaction},
+  author={Li, Tianpeng and Liu, Jun and Zhang, Tao and Fang, Yuanbo and Pan, Da and Wang, Mingrui and Liang, Zheng and Li, Zehuan and Lin, Mingan and Dong, Guosheng and others},
+  journal={arXiv preprint arXiv:2502.17239},
+  year={2025}
+}
+```

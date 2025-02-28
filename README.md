@@ -107,9 +107,11 @@ python s2s_gradio_demo_cosy_multiturn.py
 
 ### Cases
 
-* 介绍下北京
+Below is an example of audio input and output:
 
-https://github.com/user-attachments/assets/54dd31bf-32b7-4259-adc1-9f6160b3c15f
+| **Input Type** | **Input Content**   | **Output Type** | **Output Content**                                                                                   |
+|----------------|---------------------|-----------------|------------------------------------------------------------------------------------------------------|
+| Audio          | "介绍下北京" | Audio           | [Audio Output](https://raw.githubusercontent.com/baichuan-inc/Baichuan-Audio/refs/heads/main/assets/audio_out.wav) |
 
 ### Open-Source Evaluation Set
 
@@ -133,5 +135,18 @@ To more efficiently evaluate the model's "intelligence," we have constructed Ope
 
 ### License
 The use of Baichuan-Audio-Base/Baichuan-Audio model weights must comply with the [Apache 2.0](https://github.com/baichuan-inc/Baichuan-Audio/blob/main/LICENSE)
+
+### Citation
+
+If you find our model/code/paper helpful, please consider citing our papers 📝 and staring us ⭐️！
+
+```bib
+@article{li2025baichuan,
+  title={Baichuan-Audio: A Unified Framework for End-to-End Speech Interaction},
+  author={Li, Tianpeng and Liu, Jun and Zhang, Tao and Fang, Yuanbo and Pan, Da and Wang, Mingrui and Liang, Zheng and Li, Zehuan and Lin, Mingan and Dong, Guosheng and others},
+  journal={arXiv preprint arXiv:2502.17239},
+  year={2025}
+}
+```
 
 
